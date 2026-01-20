@@ -39,6 +39,7 @@ public class PuzzlePiece : MonoBehaviour
             transform.position = rightPosition;
             isPlaced = true; 
             GetComponent<SpriteRenderer>().sortingOrder = 0;
+            GetComponent<Collider2D>().enabled = false;
             //Debug.Log("Шматочок на місці!");
         }
     }
