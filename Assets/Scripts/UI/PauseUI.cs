@@ -1,13 +1,24 @@
 using UnityEngine;
 
-public class WinUI : MonoBehaviour
+public class PauseUI : MonoBehaviour
 {
     private SceneLoader scene;
+    private LevelManager levelManager;
 
     private void Start()
     {
         //audioManager = AudioManager.Instance;
         scene = SceneLoader.Instanse;
+    }
+
+    public void Continue()
+    {
+        levelManager.closePauseUI();
+    }
+
+    public void btRestart()
+    {
+        scene.RestartLevel();
     }
 
     public void btLevels()
@@ -18,8 +29,5 @@ public class WinUI : MonoBehaviour
     {
         scene.Settings();
     }
-    public void btRestart()
-    {
-        scene.RestartLevel();
-    }
+    
 }

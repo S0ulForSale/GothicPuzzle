@@ -12,18 +12,18 @@ public class MainMenuUi : MonoBehaviour
 
     public void btPlay()
     {
-
+        scene.Levels();
     }
     public void btSettings()
     {
-
+        scene.Settings();
     }
     public void btAbout()
     {
-        
+        scene.About();
     }
     public void btExit()
     {
-
+       
     }
 }

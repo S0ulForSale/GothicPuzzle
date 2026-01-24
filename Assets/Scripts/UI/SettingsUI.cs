@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LevelsUI : MonoBehaviour
+public class SettingsUI : MonoBehaviour
 {
     private SceneLoader scene;
 
@@ -13,17 +13,5 @@ public class LevelsUI : MonoBehaviour
     public void btBack()
     {
         scene.MainMenu();
-    }
-    public void btLvl1()
-    {
-        scene.Lvl1();
-    }
-    public void btLvl2()
-    {
-
-    }
-    public void btLvl3()
-    {
-
     }
 }

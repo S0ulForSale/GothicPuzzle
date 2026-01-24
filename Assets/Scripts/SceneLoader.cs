@@ -19,29 +19,31 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    /*public void MainMenu()
+    public void MainMenu()
     {
         SceneManager.LoadScene(0);
     }
-
-    public void Levels()
+    public void Settings()
     {
         SceneManager.LoadScene(1);
     }
-    public void Settings()
+    public void About()
     {
         SceneManager.LoadScene(2);
-    }
-    public void About()
+    } 
+
+    public void Levels()
     {
         SceneManager.LoadScene(3);
     }
+
+    
     public void Lvl1()
     {
         SceneManager.LoadScene(4);
     }
-    public void Lvl2()
+   /* public void Lvl2()
     {
         SceneManager.LoadScene(5);
-    */
+    }*/
 }
