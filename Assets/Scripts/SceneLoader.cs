@@ -42,8 +42,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
-   /* public void Lvl2()
+
+    public void Lvl2()
     {
         SceneManager.LoadScene(5);
-    }*/
+    }
 }

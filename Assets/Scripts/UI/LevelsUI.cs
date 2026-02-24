@@ -20,7 +20,7 @@ public class LevelsUI : MonoBehaviour
     }
     public void btLvl2()
     {
-
+        scene.Lvl2();
     }
     public void btLvl3()
     {
