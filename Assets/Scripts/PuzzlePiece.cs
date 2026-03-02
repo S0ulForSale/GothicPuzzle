@@ -21,20 +21,20 @@ public class PuzzlePiece : MonoBehaviour
         {
             isDragging = true;
             offset = transform.position - GetMouseWorldPos();
-            GetComponent<SpriteRenderer>().sortingOrder = 10;
+           // GetComponent<SpriteRenderer>().sortingOrder = 10;
         }
     }
 
     void OnMouseUp()
     {
         isDragging = false;
-        GetComponent<SpriteRenderer>().sortingOrder = 2;
+       // GetComponent<SpriteRenderer>().sortingOrder = 2;
         if (Vector3.Distance(transform.position, rightPosition) < 0.5f)
         {
             if( isPlaced ==  false) FindObjectOfType<LevelManager>().PiecePlaced();
             transform.position = rightPosition;
             isPlaced = true; 
-            GetComponent<SpriteRenderer>().sortingOrder = 0;
+            //GetComponent<SpriteRenderer>().sortingOrder = 0;
             GetComponent<Collider2D>().enabled = false;
         }
     }
