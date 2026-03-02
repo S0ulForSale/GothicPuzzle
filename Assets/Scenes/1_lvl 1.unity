@@ -11612,7 +11612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winUi: {fileID: 928168360}
   pauseUI: {fileID: 1474634780}
-  totalPieces: 12
+  totalPieces: 24
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
