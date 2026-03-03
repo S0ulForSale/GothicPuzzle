@@ -29,6 +29,7 @@ public class PuzzlePiece : MonoBehaviour
     {
         isDragging = false;
        // GetComponent<SpriteRenderer>().sortingOrder = 2;
+       
         if (Vector3.Distance(transform.position, rightPosition) < 0.5f)
         {
             if( isPlaced ==  false) FindObjectOfType<LevelManager>().PiecePlaced();
